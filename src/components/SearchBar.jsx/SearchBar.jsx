@@ -1,7 +1,11 @@
 import { BsSearch } from 'react-icons/bs'
 
-const SearchBar = () => {
-    
+const SearchBar = ({countries}) => {
+
+    const searchCountries = () => {
+
+    }
+
     return (
         <div className='flex items-center justify-between m-6'>
             <div className='px-4 relative'>

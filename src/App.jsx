@@ -2,8 +2,8 @@ import "./App.css";
 import { useState } from "react";
 import MainCountriesPage from "./components/MainCountriesPage.jsx/MainCountriesPage";
 import NavBar from "./components/NavBar.jsx/NavBar";
-import useAxios from "./hooks/useAxios";
 import SearchBar from "./components/SearchBar.jsx/SearchBar";
+import useAxios from "./hooks/useAxios";
 
 function App() {
   const [darkMode, setDarkMode] = useState(true)
@@ -18,7 +18,7 @@ function App() {
   return (
     <div className="font-nunito">
       <NavBar toggleDarkMode={toggleDarkMode} darkMode={darkMode}/>
-      {/* <SearchBar/> */}
+      <SearchBar countries={countries}/>
       <MainCountriesPage countries={countries}/>
     </div>
   );

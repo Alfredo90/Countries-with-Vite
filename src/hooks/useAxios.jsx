@@ -21,5 +21,4 @@ const useAxios = (url) => {
   }, [url]);
   return { isLoading, countries, error };
 };
-
 export default useAxios;
