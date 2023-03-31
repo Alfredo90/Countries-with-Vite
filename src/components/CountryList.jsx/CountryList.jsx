@@ -1,5 +1,5 @@
 
-const CountryCards = ({country}) => {
+const CountryList= ({country}) => {
   console.log(country.flag)
   return (
     <li className=" shadow-2xl rounded-md border-black w-64 h-80 mt-10 ">
@@ -16,4 +16,4 @@ const CountryCards = ({country}) => {
   )
 }
 
-export default CountryCards
+export default CountryList
