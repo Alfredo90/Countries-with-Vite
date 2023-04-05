@@ -7,7 +7,7 @@ const SearchBar = ({ query, setQuery, selectedRegion, setSelectedRegion}) => {
 
 
     return (
-      <div className="flex items-center justify-between m-6">
+      <div className="flex items-center justify-between p-6 dark:bg-slate-800">
         <div className="px-4 relative">
           <span>
             <BsSearch className="absolute m-1" />

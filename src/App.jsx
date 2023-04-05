@@ -15,7 +15,7 @@ function App() {
   }
 
   return (
-    <div className="font-nunito">
+    <div className={` w-full md:h-screen font-nunito bg-white dark:bg-slate-800 ${darkMode ? 'dark' : ''} `}>
       <NavBar toggleDarkMode={toggleDarkMode} darkMode={darkMode}/>
       <MainCountriesPage countries={countries}/>
     </div>

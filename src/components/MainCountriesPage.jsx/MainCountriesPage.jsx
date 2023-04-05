@@ -18,7 +18,7 @@ const MainCountriesPage = ({countries}) => {
   });
 
   return (
-    <div>
+    <div className='dark:bg-slate-800'>
       <SearchBar query={query} setQuery={setQuery} selectRegion={selectedRegion} setSelectedRegion={setSelectedRegion} />
       {filterCountries.length === 0 ? (
         <p>No Country Found...</p>
